@@ -138,17 +138,13 @@ function sendVideoMessage(sender) {
             "payload": {
                 "template_type": "generic",
                 "elements": [{
-                    "title": "Video Link card",
-                    "subtitle": "Element #1 of an hscroll",
-                    "image_url": "http://messengerdemo.parseapp.com/img/rift.png",
+                    "title": "Bunny Video",
+                    "subtitle": "Bunny waking up",
+                    "image_url": "https://drive.google.com/open?id=0B0r8qyZxH0CRdHk3WGJMLWJSdWM",
                     "buttons": [{
                         "type": "web_url",
                         "url": "https://drive.google.com/open?id=0B0r8qyZxH0CRVFpUcW5RWjRvaVk",
                         "title": "Watch Video"
-                    }, {
-                        "type": "postback",
-                        "title": "Postback",
-                        "payload": "Payload for first element in a generic bubble",
                     }],
                 }]
             }
