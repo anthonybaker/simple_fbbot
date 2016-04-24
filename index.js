@@ -140,10 +140,10 @@ function sendVideoMessage(sender) {
                 "elements": [{
                     "title": "Bunny Video",
                     "subtitle": "Bunny waking up",
-                    "image_url": "https://drive.google.com/open?id=0B0r8qyZxH0CRdHk3WGJMLWJSdWM",
+                    "image_url": "https://messengercontent.firebaseapp.com/sample_image.PNG",
                     "buttons": [{
                         "type": "web_url",
-                        "url": "https://drive.google.com/open?id=0B0r8qyZxH0CRVFpUcW5RWjRvaVk",
+                        "url": "https://messengercontent.firebaseapp.com/SampleVideo_1280x720_1mb.mp4",
                         "title": "Watch Video"
                     }],
                 }]
