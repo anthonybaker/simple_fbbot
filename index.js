@@ -39,9 +39,8 @@ app.post('/webhook/', function (req, res) {
             if (text === 'Generic' || text === 'generic') {
                 sendGenericMessage(sender)
                 continue
-            }
-            if (text === 'Video' text === 'video') {
-                sendGenericMessage(sender)
+            } else if (text === 'Video' text === 'video') {
+                sendVideoMessage(sender)
                 continue
             }
             sendTextMessage(sender, "Text received, echo: " + text.substring(0, 200))
